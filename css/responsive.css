@@ -1,0 +1,391 @@
+@media only screen and (min-width: 360px) {
+    .head {
+        height: 120px;
+    }
+    .first {
+        margin-top: 8px;
+        height: 110px;
+    }
+    .second {
+        margin-top: 8px;
+        height: 110px;
+    }
+    .three {
+        margin-top: 8px;
+        height: 110px;
+    }
+    .four {
+        margin-top: 8px;
+        height: 110px;
+    }
+    .five {
+        margin-top: 8px;
+        height: 110px;
+    }
+    .img p {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    .img {
+        padding-top: 5px;
+        height: 105px;
+    }
+    .img h1 {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .img h2 {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .container {
+        text-align: center;
+        margin: 0 auto;
+        width: 340px;
+    }
+    .arg {
+        margin: 0 auto;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+    }
+    .titre {
+        background-color: white;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .post {
+        width: 100%;
+        height: 500px;
+    }
+    .aside {
+        margin-top: 1200px;
+        width: 100%;
+    }
+    .artitle h2 {
+        font-size: 12px;
+        color: black;
+        text-align: center;
+        width: 100%;
+    }
+    .signimg {
+        margin-top: 8px;
+        height: 250px;
+    }
+    .signa {
+        margin-top: 8px;
+        height: 50px;
+    }
+    footer {
+        background-color: black;
+        margin-top: 70px;
+        height: 400px ;
+    }
+    .footer {
+        width: 100%;
+        margin: 0 auto;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 25px;
+    }
+    .footer__titre {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 5px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+    }
+    .footer__border {
+        border-bottom: 1px solid gray;
+        width: 130px;
+        padding-bottom: 6px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .img p {
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    .img h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .img {
+        height: 105px;
+    }
+    .img h2 {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .img p {
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    .img h1 {
+        font-size: 21px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .img h2 {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .aside {
+        margin-top: 1090px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 645px) {
+    .nav {
+        line-height: 100px ;
+    } 
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        background-color: #efefef;
+        clear: right;
+        display: block;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+        position: absolute;
+        margin-left:-50px;
+    }
+}
+
+@media only screen and (min-width: 666px) {
+    .first {
+        margin-top: 8px;
+        height: 200px;
+    }
+    .second {
+        margin-top: 8px;
+        height: 200px;
+    }
+    .three {
+        margin-top: 8px;
+        height: 200px;
+    }
+    .four {
+        margin-top: 8px;
+        height: 200px;
+    }
+    .five {
+        margin-top: 8px;
+        height: 200px;
+    }
+    .img p {
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-top: -200px;
+    }
+    .img h1 {
+        font-size: 46px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .head {
+        height: 220px;
+    }
+    .img p {
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    .img h1 {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .img {
+        height: 210px;
+    }
+    .container {
+        text-align: center;
+        margin: 0 auto;
+        width: 700px;
+    }
+    .titre {
+        background-color: white;
+        position: relative;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .art {
+        border: 1px solid black;
+    }
+    .aside {
+        margin-top: 1450px;
+        width: 100%;
+    }
+    .footer {
+        width: 90%;
+        margin: 0 auto;
+        display:flex;
+        justify-content: center;
+        padding-top: 25px;
+        flex-wrap: nowrap
+    }
+    .footer__titre {
+        width: 100%;
+        max-width: 33%;
+        padding-left: 5px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+    }
+    .footer__border {
+        border-bottom: 1px solid gray;
+        width: 130px;
+        padding-bottom: 6px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .head {
+        height: 400px;
+    }
+    .first {
+        margin-top: 8px;
+        height: 300px;
+    }
+    .second {
+        margin-top: 8px;
+        height: 300px;
+    }
+    .three {
+        margin-top: 8px;
+        height: 300px;
+    }
+    .four {
+        margin-top: 8px;
+        height: 300px;
+    }
+    .five {
+        margin-top: 8px;
+        height: 300px;
+    }
+    .img p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-top: -260px;
+    }
+    .img h1 {
+        font-size: 46px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .img h2 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .img {
+        height: 400px;
+    }
+    .arg {
+        display: flex;
+        flex-direction: row;
+        max-width: 970px;
+        margin: 1px auto;
+        padding-top: 0px;
+        padding-bottom: 8px;
+    }
+    .titre {
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .container {
+        text-align: center;
+        margin: 0px;
+        width: 100%;
+    }
+    .post {
+        width: 1000px;
+        margin-left: 20px;
+    }
+    .aside {
+        margin-top: -500px;
+        height: 700px;
+        float: right;
+        width: 400px;
+        margin-right: 90px;
+    }
+    footer {
+        background-color: black;
+        margin-top: 1830px;
+        height: 400px ;
+    }
+    .footer {
+        width: 90%;
+        margin: 0 auto;
+        display:flex;
+        justify-content: center;
+        padding-top: 25px;
+        flex-wrap: nowrap;
+    }
+    .footer__titre {
+        width: 100%;
+        max-width: 33%;
+        padding-left: 5px;
+        padding-top: 5px;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+    }
+    .footer__border {
+        border-bottom: 1px solid gray;
+        width: 130px;
+        padding-bottom: 6px;
+    }
+}

@@ -1,0 +1,233 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    height: 150.2px;
+    background: url('../img/logos/logo.png') no-repeat center;
+    background-size: contain;
+}
+
+.img {
+    max-width: 960px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.first {
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    background: url('../img/article/haut.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 70px;
+    line-height: 70px ;
+}
+
+.menu {
+    margin : O 30px 0 0;
+}
+
+.menu a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label {
+    padding-left: 16px;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+}
+#toggle {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding-right: 5px;
+}
+
+.arg {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    border: 1px solid black;
+    margin-top: -35px;
+}
+
+.head {
+    width: 100%;
+    background: url('../img/article/haut.jpg') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.first {
+    width: 100%;
+    background: url('../img/article/first.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.art {
+    border: 1px solid black;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.art h2 {
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+.art p {
+    text-align: center;
+    color: gray;
+}
+
+.second {
+    width: 100%;
+    background: url('../img/article/second.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.three {
+    width: 100%;
+    background: url('../img/article/three.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.four {
+    width: 100%;
+    background: url('../img/article/four.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.five {
+    width: 100%;
+    background: url('../img/article/five.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sign {
+    border: 1px solid black;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.signimg {
+    width: 100%;
+    background: url('../img/article/blogger.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.signa {
+    width: 100%;
+    background: url('../img/article/signature.png') no-repeat center;
+    background-size: contain;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.aside {
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+li h2{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 12px;
+    margin-left: 49px;
+    margin-top: -2px;
+}
+
+li p{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 49px;
+    color: gray;
+}
+
+li  {
+    display: flex;
+    padding-left: 10px;
+}
+
+li img {
+    margin-bottom: 4px;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 0 10px;
+    margin-bottom: 6px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-style: none;
+    margin-bottom: 5px;
+    padding: 6px;
+}
+
+.footer_p {
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+.footer__bottom {
+    border-top: 1px solid gray;
+    width: 100%;
+}
